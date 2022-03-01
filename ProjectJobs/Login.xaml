@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectJobs.Login"
+             BackgroundImageSource="gradiente.png"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Padding="0">
+
+        <Frame BackgroundColor="#212121" CornerRadius="0" HeightRequest="100" HorizontalOptions="FillAndExpand" Margin="0" Padding="0">
+
+            <Image Source="logo.png" WidthRequest="50" HeightRequest="100"/>
+
+        </Frame>
+ 
+        <StackLayout Margin="10,50,10,0">
+       
+            <Frame BackgroundColor="White" HorizontalOptions="FillAndExpand" HasShadow="True" HeightRequest="480" CornerRadius="15">
+          
+                <StackLayout>
+
+                    <StackLayout Margin="0,10">
+                        <Label Text="Logar" FontSize="30" HorizontalTextAlignment="Center" FontFamily="HelveticaNowText-BoldItalic.ttf#HelveticaNowText-BoldItalic" TextColor="Black"/>
+
+
+                        <StackLayout Margin="0,30">
+
+                            <Label Text="Email" FontSize="15" HorizontalTextAlignment="Start" Margin="15" FontFamily="HelveticaNowText-BoldItalic.ttf#HelveticaNowText-BoldItalic" TextColor="Black"/>
+                    <Frame BackgroundColor="White" Padding="0,0" Margin="0,0" BorderColor="White" CornerRadius="50" HasShadow="True" HorizontalOptions="FillAndExpand">
+                        <Entry TextColor="Gray"/>
+                    </Frame>
+                    </StackLayout>
+
+                    <StackLayout Margin="0,20">
+                        <Label Text="Senha" FontSize="15" HorizontalTextAlignment="Start" Margin="15,0" FontFamily="HelveticaNowText-BoldItalic.ttf#HelveticaNowText-BoldItalic" TextColor="Black"/>
+                  
+                        <Frame BackgroundColor="White" Padding="0,0" Margin="0,0" BorderColor="White" CornerRadius="50" HasShadow="True" HorizontalOptions="FillAndExpand">
+                            <Entry TextColor="Gray" IsPassword="True"/>
+                        </Frame>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <Button Text="Logar" HorizontalOptions="CenterAndExpand" BackgroundColor="#7800c2" Margin="0,40"/>
+
+                </StackLayout>
+                
+            </Frame>
+               
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
